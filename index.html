@@ -187,7 +187,7 @@
 
   /* contato */
   .contact{border-top:1px solid var(--line);background:radial-gradient(ellipse 70% 80% at 50% 120%,rgba(61,214,245,.12),transparent 70%);padding:110px 0 48px}
-  .links{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+  .links{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;max-width:760px}
   .links a,.links button.link{display:flex;flex-direction:column;gap:6px;padding:24px;border-radius:14px;border:1px solid var(--line-2);background:var(--surface);color:var(--text);text-decoration:none;font:inherit;text-align:left;cursor:pointer;transition:border-color .15s}
   .links a:hover,.links button.link:hover{border-color:var(--cyan)}
   .links small{font-family:var(--mono);color:var(--muted);font-size:.8rem}
@@ -425,11 +425,10 @@
       <div class="sec-head">
         <span class="tag">// contato</span>
         <h2 class="title">Vamos conversar.</h2>
-        <p>Me chame por e-mail ou LinkedIn. Respondo rápido.</p>
+        <p>Me chame por e-mail. Respondo rápido.</p>
       </div>
       <div class="links">
         <button type="button" class="link" id="copy-email" data-email="bryanlugli52@gmail.com"><small>e-mail · clique para copiar</small><strong>bryanlugli52@gmail.com</strong></button>
-        <a href="https://www.linkedin.com/in/seu-perfil"><small>linkedin</small><strong>in/seu-perfil</strong></a>
         <a href="https://github.com/BryanLugli"><small>github</small><strong>github.com/BryanLugli</strong></a>
       </div>
       <p class="copied" id="copied" role="status" aria-live="polite"></p>
